@@ -1,6 +1,51 @@
 body {
     background-color: hsl(217, 54%, 11%);
-    font-family: Outfit-VariableFont_wght;
+    font-family: Outfit;
     color: white;
-    font-size: 18px;
+    font-size: 10px;
+    font-weight: 300,400, 600;
+}
+
+.container {
+    text-align: center;
+    background-color: hsl(216, 50%, 16%);
+    margin: 200px 600px 75px 600px;
+    border-radius: 12px;
+    box-shadow: 0px 0px 150px black;
+}
+
+.img-cubo {
+    width:265px;
+    margin:20px 0px 25px 0px;
+    border-radius: 10px;
+}
+
+.item-title {
+    margin: 0px 95px 0px 0px;
+}
+
+.description {
+    font-size: 16px;
+    font-weight: normal;
+    color: hsl(215, 51%, 70%);
+    text-align: left;
+    margin: 25px 25px 25px 20px;
+}
+
+.cripto {
+    color:hsl(178, 100%, 50%);
+    font-size:7px;
+    margin:20px;
+    display: flex;
+    flex-shrink: 0;
+}
+
+
+.diamond{
+    margin: 0px 0px 0px 0px;
+    
+}
+
+.value {
+    margin-bottom: 10px;
 }
