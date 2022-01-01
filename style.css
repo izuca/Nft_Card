@@ -36,8 +36,8 @@ body {
     color:hsl(178, 100%, 50%);
     font-size:7px;
     margin:20px;
-    display: flex;
     flex-shrink: 0;
+    display:flex;
 }
 
 
@@ -48,4 +48,5 @@ body {
 
 .value {
     margin-bottom: 10px;
+    
 }
