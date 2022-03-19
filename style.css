@@ -1,6 +1,6 @@
 body {
     background-color: hsl(217, 54%, 11%);
-    font-family: Outfit;
+    font-family: Helvetica;
     color: white;
     font-size: 10px;
     font-weight: 300,400, 600;
@@ -9,9 +9,9 @@ body {
 .container {
     text-align: center;
     background-color: hsl(216, 50%, 16%);
-    margin: 200px 600px 75px 600px;
+    margin: 100px 550px 75px 600px;
     border-radius: 12px;
-    box-shadow: 0px 0px 150px black;
+    box-shadow: 0px 0px 50px hsl(218, 50%, 6%);
 }
 
 .img-cubo {
@@ -29,24 +29,34 @@ body {
     font-weight: normal;
     color: hsl(215, 51%, 70%);
     text-align: left;
-    margin: 25px 25px 25px 20px;
+    margin: 25px 0px 0px 30px;
+    line-height: 1.5;
 }
 
+.info{
+    display:flex;
+    margin: 20px 0px 20px 0px;
+}
 .cripto {
     color:hsl(178, 100%, 50%);
     font-size:7px;
-    margin:20px;
-    flex-shrink: 0;
+    margin:0px 80px 0px 30px;
     display:flex;
-}
-
-
-.diamond{
-    margin: 0px 0px 0px 0px;
-    
+    align-items: center;
 }
 
 .value {
-    margin-bottom: 10px;
-    
+    margin: 10px 0px 10px 10px;
 }
+
+.date {
+    font-size:7px;
+    display:flex;
+    align-items: center;
+}
+
+.day{
+    margin: 10px 0px 10px 10px;
+    color:hsl(215, 51%, 70%);
+}
+
